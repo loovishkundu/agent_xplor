@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Create a JSON configuration object for an AWS S3 bucket policy that allows public read access to all objects",
+    "format": "json",
+    "solution_criteria": "Must include valid S3 bucket policy structure with Principal, Action, Resource, and Effect fields; allows GetObject action; applies to all objects in bucket"
+  },
+  {
+    "task": "Write a Python function that takes an AWS CloudWatch log event and extracts the log message and timestamp",
+    "format": "python",
+    "solution_criteria": "Function must parse CloudWatch log event structure; correctly extract 'message' and 'timestamp' fields; handle the nested JSON structure; return both values"
+  },
+  {
+    "task": "Create a regular expression that validates AWS IAM user names according to AWS naming rules (alphanumeric characters, hyphens, and underscores only, 1-64 characters)",
+    "format": "regex",
+    "solution_criteria": "Regex must allow only alphanumeric characters, hyphens, and underscores; enforce minimum length of 1 and maximum of 64 characters; use proper anchors to match entire string"
+  }
+]
