@@ -1,6 +1,6 @@
 # agent_xplor
 
-Coursework and projects from the Claude Code Architect Certification.
+Projects exploring Claude API capabilities — prompt engineering, evaluation, RAG, tool use, and MCP.
 
 ## Structure
 
